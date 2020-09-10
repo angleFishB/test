@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>CSS style_study</title>
+		<style>
+			.vegetable {
+				color: red;
+				font: bolder;
+			}
+
+			/* id选择器 */
+			#food .vegetable {
+				color: blue;
+				font-size: 20px;
+			}
+
+			/* 标签与属性组合 */
+			p[spec] {
+				color: fuchsia;
+			}
+
+			div {
+				margin: 30px;
+				border: black;
+				border-bottom-width: 10px;
+
+			}
+			span {
+				margin-left: 50px;
+			}
+
+		</style>
+	</head>
+	<body>
+		<button name="button"> 按钮1</button>
+		<div class="cheese" id="c1"> <span>Cheddar</span> </div>
+		<div class="cheese" > <span>Gouda</span> </div>
+
+		<a href="http://www.baidu.com">跳转到百度</a>
+		<div id="food" style="margin-top: 10px;">
+			<span class="vegetable good">黄瓜</span>
+			<span class="meat">牛肉</span>
+			<span class="vegetable">西红柿</span>
+			<span class="vegetable">青菜</span>
+
+		</div>
+		<div style="...">
+			<span class="vegetable good">黄瓜</span>
+			<p class="vegetable">青菜</p>
+			<p spec='len'>苹果</p>
+			<p spec='len1'>西瓜</p>
+			<p spec='len2'>草莓</p>
+			<input type="radio"  />female
+			<input type="radio"  />male
+			<input type="checkbox"  />上午
+			<input type="checkbox"  />下午
+
+		</div>
+	</body>
+</html>
